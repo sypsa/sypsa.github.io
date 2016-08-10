@@ -1,6 +1,7 @@
 body{
 	text-align: center;
-	background: #000;
+	 background: url("images/womanhairgreenbackground");
+  background-size: cover;
 	color: #fff;
   font-family: Helvetica;
 }
