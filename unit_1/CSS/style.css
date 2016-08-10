@@ -4,6 +4,9 @@ body{
 	color: #fff;
   font-family: Helvetica;
 }
+hr {
+  width:200px;
+}
 
 h1, p {
 	color:white;
