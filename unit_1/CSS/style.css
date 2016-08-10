@@ -1,6 +1,7 @@
-body {
-	text-align: center
-	background-color: black;
+body{
+	text-align: center;
+	background: #000;
+	color: #fff;
   font-family: Helvetica;
 }
 
