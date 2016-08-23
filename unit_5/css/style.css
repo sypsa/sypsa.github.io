@@ -1,6 +1,3 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans|Oswald';
-@import 'https://fonts.googleapis.com/css?family=Monoton';
-
 
 *{
 	padding: 0;
@@ -8,50 +5,13 @@
 	box-sizing:border-box;
 }
 
-header {
-	background-color: #FFED74;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-nav {
-	background-color: #E8C66A;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-figure {
-	background-color: #E89C6C;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-aside {
-	background-color: #FFC675;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-section {
-	background-color: #FFE2B8;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-footer {
-	background-color: #FF957E;
-	border: 1px black solid;
-	padding: 20px;
-}
-
 body{
 	text-align: center;
 	position: relative;
 	background-color: black;
-	background-size: cover;
-  font-family: 'Oswald', cursive;
-  color: white;
-  font-size: 16px;
+ 	 font-family: 'Oswald', cursive;
+  	color: white;
+  	font-size: 16px;
 }
 
 h1, h2, h3, {
@@ -59,6 +19,7 @@ h1, h2, h3, {
 	color: ##FFFFF3;
 	font-size: 22px;
 } 
+
 h1 {
 	font-family: 'Monoton', cursive;
 	font-size:60px;
@@ -66,6 +27,7 @@ h1 {
 	color: #fff;
 	margin:200px 0 0;
 }
+
 p {
 	text-align: center;
 	color: #E0E3DA;
@@ -77,20 +39,62 @@ p {
     text-align: center;
     list-style-type: none;
 }
+
 img{
 	width: 100%; 
 	height: auto;
 	display: block;
 }
+
+#lauren {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#links {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#hero {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.email {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#bridal {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
 figure {
 width: 100%;
 max-width: 600px;
 margin: 0 auto;
 display: block;
 }
-.section{
-background: black;
-}
-#bridal{
-background: black;
+
+#services ol {
+	list-style: none;
 }
