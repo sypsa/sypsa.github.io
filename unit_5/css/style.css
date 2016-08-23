@@ -1,0 +1,60 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Oswald';
+@import 'https://fonts.googleapis.com/css?family=Monoton';
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body{
+	text-align: center;
+	position: relative;
+	background-color: black;
+	background-size: cover;
+  font-family: 'Oswald', cursive;
+  color: white;
+  font-size: 16px;
+}
+
+h1, h2, h3, {
+	text-align: center;
+	color: ##FFFFF3;
+	font-size: 22px;
+} 
+h1 {
+	font-family: 'Monoton', cursive;
+	font-size:60px;
+	text-align: center;
+	color: #fff;
+	margin:200px 0 0;
+}
+p {
+	text-align: center;
+	color: #E0E3DA;
+	font-size: 22px;
+	font-style: 'Open Sans', sans-serif;
+} 
+
+	ul {
+    text-align: center;
+    list-style-type: none;
+}
+img{
+	width: 100%; 
+	height: auto;
+	display: block;
+}
+figure {
+width: 100%;
+max-width: 600px;
+margin: 0 auto;
+display: block;
+}
+.section{
+background: black;
+}
+#bridal{
+background: black;
+}
