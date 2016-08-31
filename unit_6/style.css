@@ -8,7 +8,7 @@
 body{
 	text-align: center;
 	position: relative;
-	background-color: #ffe2b8;
+	background-color: black;
  	 font-family: 'Open Sans', sans-serif;
   	color: white;
   	font-size: 16px;
@@ -16,7 +16,7 @@ body{
 
 h1, h2, h3, {
 	text-align: center;
-	color: ##FFFFF3;
+	color: #white;
 	font-size: 22px;
 } 
 
@@ -24,7 +24,7 @@ h1 {
 	font-family: 'Monoton', cursive;
 	font-size:60px;
 	text-align: center;
-	color: #fff;
+	color: #white;
 	margin:200px 0 0;
 }
 
@@ -64,36 +64,35 @@ img{
 }
 
 #lauren {
-	background-color: #FFED74;
+	background-color: black;
 	border: 1px black solid;
 	padding: 5px;
 	float: left;
 }
 
 #links {
-	background-color: #E8C66A;
+	background-color: black;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 #hero {
-	background-color: #E89C6C;
+	background-color: black;
 	border: 1px black solid;
 	padding: 20px;
-  	background: #fffebb;
+  	background: #black;
 }
 
 
 .email {
-	background-color: #FFC675;
-	border: 1px black solid;
+	background-color: black;
 	padding: 20px;
-	float: left;
+	float: right;
     width: 20%;
 }
 
 .section {
-  	background-color: #FFE2B8;
+  	background-color: black;
 	padding: 20px;
 	float: right;   
     width: 42%;
@@ -108,7 +107,7 @@ img{
 }
 
 #bridal {
-	background-color: #FFE2B8;
+	background-color: black;
 	padding: 20px;
 	float: right;
 }
@@ -118,7 +117,7 @@ img{
 }
 
 #footer {
-	background-color: #FF957E;
+	background-color: black;
 	border: 1px black solid;
 	padding: 20px;
 	clear: both;
