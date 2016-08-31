@@ -9,7 +9,7 @@ body{
 	text-align: center;
 	position: relative;
 	background-color: #ffe2b8;
- 	 font-family: 'Oswald', cursive;
+ 	 font-family: 'Open Sans', sans-serif;
   	color: white;
   	font-size: 16px;
 }
@@ -30,14 +30,31 @@ h1 {
 
 p {
 	text-align: center;
-	color: #E0E3DA;
-	font-size: 22px;
+	color: white;
+	font-size: 10px;
 	font-style: 'Open Sans', sans-serif;
 } 
 
 	ul {
     text-align: center;
     list-style-type: none;
+}
+
+nav{
+	font-size: 1.8em;
+  	float: right;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin: 1.8em;
+  display: inline-block;
+}
+
+a:hover {
+	background-color: #aaaaaa;
 }
 
 img{
@@ -49,7 +66,8 @@ img{
 #lauren {
 	background-color: #FFED74;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 5px;
+	float: left;
 }
 
 #links {
@@ -62,31 +80,48 @@ img{
 	background-color: #E89C6C;
 	border: 1px black solid;
 	padding: 20px;
+  	background: #fffebb;
 }
+
 
 .email {
 	background-color: #FFC675;
 	border: 1px black solid;
 	padding: 20px;
+	float: left;
+    width: 20%;
 }
 
 .section {
-	background-color: #FFE2B8;
-	border: 1px black solid;
+  	background-color: #FFE2B8;
 	padding: 20px;
+	float: right;   
+    width: 42%;
 }
 
+#services {
+	float: left;
+}
+
+#makeup {
+	float: left;
+}
 
 #bridal {
 	background-color: #FFE2B8;
-	border: 1px black solid;
 	padding: 20px;
+	float: right;
+}
+
+#whattoexpect{
+	clear:both;
 }
 
 #footer {
 	background-color: #FF957E;
 	border: 1px black solid;
 	padding: 20px;
+	clear: both;
 }
 
 figure {
@@ -98,4 +133,13 @@ display: block;
 
 #services ol {
 	list-style: none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
