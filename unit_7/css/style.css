@@ -9,7 +9,7 @@ body{
 	text-align: center;
 	position: relative;
 	background-color: #000000;
- 	 font-family: 'Open Sans', sans-serif;
+ 	font-family: 'Open Sans', sans-serif;
   	color: #fff;
   	font-size: 1em;
 }
@@ -44,23 +44,23 @@ p {
 	font-style: 'Open Sans', sans-serif;
 } 
 
-	ul {
+ul {
     text-align: center;
     list-style-type: none;
 }
 
-nav{
+nav {
 	font-size: 1.8em;
   	float: right;
 }
 
-nav a{
-  text-decoration: none;
-  color: #fff;
-  font-size: .75em;
-  margin: 1.8em;
-  display: inline-block;
-  text-transform: uppercase;
+nav a {
+	text-decoration: none;
+	color: #fff;
+	font-size: .75em;
+	margin: 1.8em;
+	display: inline-block;
+	text-transform: uppercase;
 }
 
 a:hover {
