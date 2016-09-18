@@ -1,0 +1,207 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body{
+	text-align: center;
+	position: relative;
+	background-color: #000000;
+ 	font-family: 'Open Sans', sans-serif;
+  	color: #fff;
+  	font-size: 1em;
+}
+
+h1, h2, h3, {
+	text-align: center;
+	font-size: 2em;
+	text-transform: uppercase;
+} 
+
+h1 {
+	font-family: 'Monoton', cursive;
+	font-size: 3.5em;
+	text-align: center;
+	margin: .25em;
+}
+
+h2{
+	border: .15em solid;
+	padding: .5em;
+	border-style: solid;
+	border-top: #000000;
+	border-right: #000000;
+	border-left: #000000;
+	border-bottom-color: #ff7761
+}
+
+p {
+	text-align: right;
+	color: #fff;
+	font-size: 2em;
+	font-style: 'Lora', serif;
+} 
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+nav {
+	font-size: 1.8em;
+  	float: right;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+	font-size: .75em;
+	margin: 1.8em;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+a:hover {
+	border-bottom: .25em solid #fff
+}
+
+img{
+	width: 100%; 
+	height: auto;
+	display: block;
+	margin: 1em;
+	padding-top: 1em;
+	padding-bottom: 0;
+}
+
+#lauren {
+	background-color: #000000;
+	border: .25em black solid;
+	padding: .5em;
+	float: left;
+}
+
+
+#links {
+	background-color: #000000;
+	border: .25em black solid;
+	padding: 1em;
+	float: right;
+}
+
+#hero {
+	background-color: #000000;
+	border: .25em black solid;
+	padding: 1em;
+  	background: #000000;
+}
+
+.email {
+	background-color: #000000;
+	padding: 1em;
+}
+
+.section {
+  	background-color: #000000;
+	padding: 1em;
+	float: left;   
+    width: 33.33%;
+}
+
+#services {
+	float: left;
+	width:400px;
+  	position:relative;
+ 	margin:auto;
+}
+
+#makeup {
+	float: left;
+}
+
+#bridal {
+  width:400px;
+  position:relative;
+  margin:auto;
+  float: right;
+}
+
+  h4 {
+  display: none;  
+  height:100%;
+  width:100%;
+  background-color:rgba(0,0,0,0.5);
+  position:absolute;
+  top:0;
+  left:0;
+  font-family:'Open Sans', sans-serif;
+  text-align:center;
+  color:#fff;
+  font-size:1.25em;
+  padding:30% 0 0;
+  margin:0;
+}
+
+.section:hover > h4, ul{
+  display:block;
+
+}
+
+img{
+  display: block;
+  width:100%;
+	height: auto;
+	margin: 1em;
+	padding-top: 1em;
+	padding-bottom: 0;
+}
+
+
+#whattoexpect{
+	padding: 2em;
+	clear:both;
+}
+
+#footer {
+	background-color: #000000;
+	border: .25em black solid;
+	padding: 1em;
+	clear: both;
+}
+
+figure {
+width: 100%;
+max-width: 600px;
+margin: 0 auto;
+display: block;
+}
+
+#services ol {
+	list-style: none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media only screen and (max-width: 768px) {
+	#services, #makeup, #bridal, #whattoexpect {
+		float: none;
+		width: auto;
+	}
+h1, h2{
+	text-align: center;
+}
+nav a {
+	display: block;
+	text-align: center;
+	margin: 0;
+}
+}

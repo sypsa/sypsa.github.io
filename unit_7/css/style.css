@@ -155,3 +155,18 @@ display: block;
     clear: both;
     height: 0;
 }
+
+@media only screen and (max-width: 768px) {
+	#services, #makeup, #bridal, #whattoexpect {
+		float: none;
+		width: auto;
+	}
+h1, h2{
+	text-align: center;
+}
+nav a {
+	display: block;
+	text-align: center;
+	margin: 0;
+}
+}
