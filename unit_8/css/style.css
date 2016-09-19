@@ -64,7 +64,7 @@ nav a {
 }
 
 a:hover {
-	border-bottom: .25em solid #fff
+	background-color: #274555
 }
 
 img{
@@ -91,20 +91,13 @@ img{
 	float: right;
 }
 
-#hero {
-	background-color: #000000;
-	border: .25em black solid;
-	padding: 1em;
-  	background: #000000;
-}
-
 .email {
 	background-color: #000000;
 	padding: 1em;
 }
 
 .section {
-  	background-color: #000000;
+  	background-color: #3f4040;
 	padding: 1em;
 	float: left;   
     width: 33.33%;
@@ -112,17 +105,20 @@ img{
 
 #services {
 	float: left;
-	width:400px;
+	width:333px;
   	position:relative;
  	margin:auto;
 }
 
-#makeup {
+#whattoexpect{
 	float: left;
+	width: 333px;
+	position: relative;
+	margin: auto;
 }
 
 #bridal {
-  width:400px;
+  width:333px;
   position:relative;
   margin:auto;
   float: right;
@@ -146,7 +142,6 @@ img{
 
 .section:hover > h4, ul{
   display:block;
-
 }
 
 img{
@@ -195,13 +190,21 @@ display: block;
 	#services, #makeup, #bridal, #whattoexpect {
 		float: none;
 		width: auto;
-	}
+    	font-size: 1.4em;
+    	line-height: 1.8em;
+ 		 }
+nav {
+    float: none;
+  }
 h1, h2{
 	text-align: center;
 }
 nav a {
 	display: block;
 	text-align: center;
-	margin: 0;
+	margin: 0 1.6em .75em 0;
 }
+img {
+    width: 320px;
+  }
 }
