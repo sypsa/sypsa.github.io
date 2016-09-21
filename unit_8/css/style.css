@@ -37,7 +37,6 @@ h2{
 	border-bottom-color: #ff7761
 }
 
-// NEW
 h2.header-stylist{
   width: 50%
 }
@@ -76,20 +75,14 @@ a:hover {
 	background-color: #000000;
 	border: .25em black solid;
 	padding: .5em;
-  // removed ---> float: left;
 }
 
-
 #links {
-	// don't need --- background-color: #000000;
 	border: .25em black solid;
 	padding: 1em;
-  position: absolute;
-  top: 0;
-  right: 0;
-	// removed --- float: right;
-
-
+  	position: absolute;
+  	top: 0;
+  	right: 0;
 }
 
 .email {
@@ -98,23 +91,21 @@ a:hover {
 }
 
 .section {
-  background-color: #3f4040;
+  	background-color: #3f4040;
 	padding: 1em;
 	// float: left;
-  width: 30%;
-  display: inline-block;
-  height: 400px;
+ 	width: 30%;
+  	display: inline-block;
+  	height: 400px;
 }
 
 #services {
-  // removed -- float: left;
 	// width:333px;
-  position:relative;
+  	position:relative;
  	margin:auto;
 }
 
 #whattoexpect{
-	// removed -- float: left;
 	// width: 333px;
 	position: relative;
 	margin: auto;
@@ -124,7 +115,6 @@ a:hover {
   // width:333px;
   position:relative;
   margin:auto;
-  // removed -- float: right;
 }
 
 h4 {
@@ -193,18 +183,6 @@ display: block;
 .more-information {
   clear: both
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 768px) {
 	#services, #makeup, #bridal, #whattoexpect {
