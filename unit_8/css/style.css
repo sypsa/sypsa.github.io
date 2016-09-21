@@ -18,12 +18,12 @@ h1, h2, h3, {
 	text-align: center;
 	font-size: 2em;
 	text-transform: uppercase;
-} 
+}
 
 h1 {
 	font-family: 'Monoton', cursive;
 	font-size: 3.5em;
-	text-align: center;
+	text-align: left;
 	margin: .25em;
 }
 
@@ -37,12 +37,17 @@ h2{
 	border-bottom-color: #ff7761
 }
 
+// NEW
+h2.header-stylist{
+  width: 50%
+}
+
 p {
-	text-align: right;
+	// text-align: right;
 	color: #fff;
 	font-size: 2em;
 	font-style: 'Lora', serif;
-} 
+}
 
 ul {
     text-align: center;
@@ -67,28 +72,24 @@ a:hover {
 	background-color: #274555
 }
 
-img{
-	width: 100%; 
-	height: auto;
-	display: block;
-	margin: 1em;
-	padding-top: 1em;
-	padding-bottom: 0;
-}
-
 #lauren {
 	background-color: #000000;
 	border: .25em black solid;
 	padding: .5em;
-	float: left;
+  // removed ---> float: left;
 }
 
 
 #links {
-	background-color: #000000;
+	// don't need --- background-color: #000000;
 	border: .25em black solid;
 	padding: 1em;
-	float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+	// removed --- float: right;
+
+
 }
 
 .email {
@@ -97,34 +98,36 @@ img{
 }
 
 .section {
-  	background-color: #3f4040;
+  background-color: #3f4040;
 	padding: 1em;
-	float: left;   
-    width: 33.33%;
+	// float: left;
+  width: 30%;
+  display: inline-block;
+  height: 400px;
 }
 
 #services {
-	float: left;
-	width:333px;
-  	position:relative;
+  // removed -- float: left;
+	// width:333px;
+  position:relative;
  	margin:auto;
 }
 
 #whattoexpect{
-	float: left;
-	width: 333px;
+	// removed -- float: left;
+	// width: 333px;
 	position: relative;
 	margin: auto;
 }
 
 #bridal {
-  width:333px;
+  // width:333px;
   position:relative;
   margin:auto;
-  float: right;
+  // removed -- float: right;
 }
 
-  h4 {
+h4 {
   display: none;  
   height:100%;
   width:100%;
@@ -144,18 +147,19 @@ img{
   display:block;
 }
 
+
 img{
   display: block;
-  width:100%;
-	height: auto;
-	margin: 1em;
-	padding-top: 1em;
-	padding-bottom: 0;
+	height: 75%;
+  max-width: 100%;
+  margin: 24px auto;
+	// margin: 1em;
+	// padding-top: 1em;
 }
 
 
 #whattoexpect{
-	padding: 2em;
+	// padding: 2em;
 	clear:both;
 }
 
@@ -185,6 +189,22 @@ display: block;
     clear: both;
     height: 0;
 }
+
+.more-information {
+  clear: both
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 768px) {
 	#services, #makeup, #bridal, #whattoexpect {
