@@ -14,7 +14,7 @@ body{
   	font-size: 1em;
 }
 
-h1, h2, h3, {
+h1, h2, {
 	text-align: center;
 	font-size: 2em;
 	text-transform: uppercase;
@@ -41,10 +41,16 @@ h2.header-stylist{
   width: 50%
 }
 
+h3 {
+	text-align: center;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
 p {
 	// text-align: right;
 	color: #fff;
-	font-size: 2em;
+	font-size: 1em;
 	font-style: 'Lora', serif;
 }
 
