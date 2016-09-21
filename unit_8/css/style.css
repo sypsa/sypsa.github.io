@@ -23,7 +23,6 @@ h1, h2, {
 h1 {
 	font-family: 'Monoton', cursive;
 	font-size: 3.5em;
-	text-align: left;
 	margin: .25em;
 }
 
@@ -38,8 +37,9 @@ h2{
 }
 
 h2.header-stylist{
-  width: 50%
-}
+	margin: 0 auto;
+  	width: 50%
+	}
 
 h3 {
 	text-align: center;
@@ -81,14 +81,16 @@ a:hover {
 	background-color: #000000;
 	border: .25em black solid;
 	padding: .5em;
+	width: 100%;
+	float: none;
+	text-align: center;
 }
 
 #links {
 	border: .25em black solid;
 	padding: 1em;
-  	position: absolute;
-  	top: 0;
-  	right: 0;
+  	width: 100%;
+  	float: none;
 }
 
 .email {
@@ -123,6 +125,10 @@ a:hover {
   margin:auto;
 }
 
+.section-inner{
+	position: relative;
+}
+
 h4 {
   display: none;  
   height:100%;
@@ -146,11 +152,7 @@ h4 {
 
 img{
   display: block;
-	height: 75%;
-  max-width: 100%;
-  margin: 24px auto;
-	// margin: 1em;
-	// padding-top: 1em;
+  width: 100%;
 }
 
 
@@ -197,18 +199,21 @@ display: block;
     	font-size: 1.4em;
     	line-height: 1.8em;
  		 }
-nav {
-    float: none;
-  }
+
 h1, h2{
 	text-align: center;
 }
 nav a {
 	display: block;
 	text-align: center;
-	margin: 0 1.6em .75em 0;
 }
 img {
     width: 320px;
   }
+}
+
+.clearfix:after{
+	content:"";
+	display: block;
+	clear: both;
 }
