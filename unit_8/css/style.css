@@ -104,7 +104,7 @@ a:hover {
 	// float: left;
  	width: 30%;
   	display: inline-block;
-  	height: 400px;
+  	height: 325px;
 }
 
 #services {
@@ -143,8 +143,7 @@ opacity: 0;
 opacity: 1;
 }
 
-h4 {
-  display: none;  
+h4 { 
   height:100%;
   width:100%;
   background-color:rgba(0,0,0,0.5);
@@ -162,7 +161,6 @@ h4 {
 .section:hover > h4, ul{
   display:block;
 }
-
 
 img{
   display: block;
@@ -222,9 +220,24 @@ nav a {
 	text-align: center;
 }
 img {
-    width: 320px;
+    width: 100%;
   }
 }
+
+@media only screen and (max-width: 890px) {
+	#services, #makeup, #bridal, #whattoexpect {
+		float: none;
+		width: 100%;
+    	font-size: 1em;
+    	line-height: 1.8em;
+ 		 }
+ 		 h1, h2{
+		text-align: center;
+		}
+		img {
+    	width: 100%;
+  		}
+	}
 
 .clearfix:after{
 	content:"";
