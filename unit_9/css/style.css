@@ -219,7 +219,7 @@ display: block;
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
 	.section-inner:hover,
 	.section:hover > h4, ul{
 		display: initial;
@@ -236,8 +236,16 @@ display: block;
 		top: 0;
 		background-color: #3f4040;
 	}
+	img{
+		display: block;
+		width: 100%;
+		padding: 16px;
+	}
+	.image-container {
+		width:100%;
+	}
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1160px) {
 	#services, #makeup, #bridal, #whattoexpect {
 		float: none;
 		width: auto;
@@ -256,21 +264,6 @@ img {
     width: 100%;
   }
 }
-
-@media only screen and (max-width: 890px) {
-	#services, #makeup, #bridal, #whattoexpect {
-		float: none;
-		width: 100%;
-    	font-size: 1em;
-    	line-height: 1.8em;
- 		 }
- 		 h1, h2{
-		text-align: center;
-		}
-		img {
-    	width: 100%;
-  		}
-	}
 
 	@media only screen and (max-width: 1260px) {
 		img {
